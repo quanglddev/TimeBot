@@ -1,0 +1,132 @@
+/* 
+  Localizable.strings
+  TimeBot
+
+  Created by QUANG on 4/1/17.
+  Copyright © 2017 QUANG INDUSTRIES. All rights reserved.
+*/
+
+"MONDAY_WEEKDAY" = "Thứ 2";
+"TUESDAY_WEEKDAY" = "Thứ 3";
+"WEDNESDAY_WEEKDAY" = "Thứ 4";
+"THURSDAY_WEEKDAY" = "Thứ 5";
+"FRIDAY_WEEKDAY" = "Thứ 6";
+"SATURDAY_WEEKDAY" = "Thứ 7";
+"SUNDAY_WEEKDAY" = "Chủ Nhật";
+
+"EDIT" = "Chỉnh sửa";
+"CANCEL" = "Huỷ";
+"PERSONALIZE_INFO" = "Cá nhân hoá thông tin";
+"CHANGE" = "Thay đổi";
+
+"DELETE_ALL" = "Xoá tất";
+"DELETE_ALL_2" = "Tất cả mọi công việc trong tuần mang cùng tên sẽ bị xoá";
+"DELETE" = "Xoá";
+"DELETE_2" = "Bạn đang xoá công việc này";
+
+"MINUTES" = "phút";
+"HOURS" = "giờ";
+
+"Mon" = "2";
+"Tue" = "3";
+"Wed" = "4";
+"Thu" = "5";
+"Fri" = "6";
+"Sat" = "7";
+"Sun" = "CN";
+
+"NOT_COMPLETED" = "Chưa hoàn thiện!";
+"COMPLETE" = "Xin hãy nhập đủ những thông tin cần thiết.";
+
+"FACEBOOK" = "Chia sẻ trên Facebook";
+"TWITTER" = "Chia sẻ trên Twitter";
+"SHARE" = "CHIA SẺ";
+"CHOOSE" = "Chọn mạng xã hội của bạn.";
+
+"EMAIL" = "Điền email của bạn...";
+
+"SEND" = "Gửi";
+
+"SAVE" = "Lưu vào máy";
+"NEXT_TIME" = "Để lần sau";
+"CONFIRM_SEND" = "Bạn sẽ được gửi ảnh gồm lịch hằng ngày của bạn.";
+
+"RESET" = "Hãy xoá toàn bộ mọi thông tin";
+"NO" = "Không";
+"ARE_YOU_SURE" = "Bạn có chắc không?";
+"ARE_YOU_SURE_2" = "Việc này sẽ xoá sạch toàn bộ mọi dữ liệu của bạn!!!";
+
+"NO_DATA" = "Không có dữ liệu";
+
+"SHARE_TEXT" = "Hãy sống đơn giản hơn với TimeBot! Chắc chắn! \n #TimeBot";
+
+"MAIL_SUBJECT" = "Thời gian biểu từ ";
+"MAIL_BODY" = "Bạn đã hoàn thành: ";
+
+"MAIL_ATTACH" = "Thời gian biểu - ";
+
+"MAIL_FAILED" = "Không thể gửi mail";
+"MAIL_FAILED_2" = "Máy bạn không thể gửi mail. Xin hãy đăng nhập email trên máy trước khi gửi.";
+
+"SAVED" = "Lưu thành công.";
+
+"DONE" = "Xong";
+
+"SEND_FAILED" = "Gửi thất bại";
+"MISTYPED" = "Thông tin không chính xác.";
+
+"CREDENTIAL" = "Xin hãy dùng thông tin xác thực.";
+
+"STARTS" = "Bắt đầu";
+"ENDS" = "Kết thúc";
+
+"INFO" = "THÔNG TIN";
+"PERFORMANCE" = "Phong độ";
+"SEND_" = "Gửi Bảng Biểu Tuần Này";
+"DATA" = "DỮ LIỆU";
+"CLEAR_ALL" = "Xoá Toàn Bộ";
+"PERMISSION" = "Cấp Quyền Truy Cập";
+"LANGUAGE" = "Cài Đặt Ngôn Ngữ";
+"ALARM" = "Chuông cho mọi việc";
+"INFO_FOOTER" = "Mặc định chỉ dành cho việc quan trọng. Bật khi bạn muốn nhận thông báo cho mọi việc. (Có thể phiền phức)";
+
+"TITLE" = "TÊN";
+"SAVES" = "Gửi mail";
+"DAY" = "Ngày";
+"DAY_FOOTER" = "Bạn có thể chọn nhiều ngày.";
+"IMPORTANT" = "THỜI GIAN CỨNG";
+"YES" = "CÓ";
+"IMPORTANT_FOOTER" = "Cho các công việc cứng về thời gian như giờ học, làm việc, ...";
+"DURATION" = "THỜI LƯỢNG";
+"DESCRIPTION" = "MIÊU TẢ";
+"DEFAULT_START" = "Bắt đầu     07:00";
+"DEFAULT_END" = "Kết thúc     08:00";
+
+"HOME" = "NHÀ";
+
+"WELCOME" = "CHÀO MỪNG";
+"BODY" = "Hãy cá nhân hoá!";
+"FULL_NAME" = "TÊN ĐẦY ĐỦ";
+"CENSOR" = "Thông tin của bạn sẽ không được gửi đi bắt kì đâu. Đây chỉ hỗ trợ cho các tính năng của phần mềm.";
+
+"PROGRESS_HEADER" = "TIẾN TRÌNH";
+"DATA_HEADER" = "DỮ LIỆU";
+"SETTINGS_HEADER" = "CÀI ĐẶT";
+"SETTINGS_FOOTER" = "Mặc định chỉ dành cho việc quan trọng. Bật khi bạn muốn nhận thông báo cho mọi việc. (Có thể phiền phức)";
+
+"TYPE_NAME" = "Nhập tên đầy đủ của bạn...";
+"TYPE_MAIL" = "Nhập email của bạn...";
+
+"TABLE_EMPTY" = "Bạn chưa tạo kế hoạch nào hết. Hãy nhấp nút '+' để tạo kế hoạch mới.";
+
+"MORNING" = "Sáng";
+"AFTERNOON" = "Chiều";
+"NIGHT" = "Tối";
+
+"GOOD_JOB" = "Tuyệt Vời!";
+"PRIZE" = "Bạn xứng đáng được nhận chiếc cúp này 🏆";
+"THANKS" = "Cảm ơn";
+
+"NOTI_SUBTITLE" = "Bạn đã sẵn sàng?";
+"NOTI_BODY_1" = "15' nữa là tới: ";
+"NOTI_BODY_2" = " và hoàn thành vào lúc ";

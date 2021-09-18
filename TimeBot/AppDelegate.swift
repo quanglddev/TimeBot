@@ -8,17 +8,120 @@
 
 import UIKit
 import CoreData
+//import FBSDKCoreKit
+//import GoogleSignIn
+import IQKeyboardManagerSwift
+import UserNotifications
+import Dotzu
+import Device
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    let userDefaults = UserDefaults.standard
+    
+    struct defaultsKeys {
+        static let emailAddress = "emailAddress"
+        static let name = "name"
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        /*
+        GIDSignIn.sharedInstance().delegate = self
+        
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)*/
+        
+        IQKeyboardManager.sharedManager().enable = true
+        
+        
+        let email = userDefaults.string(forKey: defaultsKeys.emailAddress)
+        let name = userDefaults.string(forKey: defaultsKeys.name)
+        
+        guard let savedEmail = email else {
+            return true
+        }
+        
+        guard let savedName = name else {
+            return true
+        }
+        
+        if !savedEmail.isEmpty && !savedName.isEmpty {
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "HomeVC")
+            self.window?.rootViewController = initialViewController
+            self.window?.makeKeyAndVisible()
+        }
+        
+        //Notification
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        UIApplication.shared.applicationIconBadgeNumber = 0 //Clear badges
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: { (accepted, error) in
+            if !accepted {
+                Logger.verbose("Notification access denied.")
+            }
+        }
+        )
+        
+        let answerOK = UNNotificationAction(identifier: "answerOK", title: "OK", options: [.foreground])
+        let quizCategory = UNNotificationCategory(identifier: "answerCategory", actions: [answerOK], intentIdentifiers: [], options: [])
+        UNUserNotificationCenter.current().setNotificationCategories([quizCategory])
+        
+        #if DEBUG
+            if Device.version() == .iPhone5S {
+                //Dotzu.sharedManager.enable()
+            }
+        #endif
+        
         return true
     }
+    
+    /*
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if let err = error {
+            print("Failed to log into Google: ", err)
+            return
+        }
+        
+        print("Successfully logged into Google: ", user)
+        
+        /*
+        guard let idToken = user.authentication.idToken else {
+            return
+        }
+        guard let accessToken = user.authentication.accessToken else {
+            return
+        }
+        
+        let credentials = FIRGoogleAuthProvider.credential(withIDToken: idToken, accessToken: accessToken)
+        
+        FIRAuth.auth()?.signIn(with: credentials, completion: { (user, error) in
+            if let err = error {
+                print("Failed to create a Firebase User with Google Account", err)
+                return
+            }
+            
+            guard let uid = user?.uid else { return }
+            print("Successfully logged into Firebase with Google", uid)
+        })*/
+    }*/
+    
+    /*
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        let handled = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String!, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+        
+        GIDSignIn.sharedInstance().handle(url,
+                                          sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+                                          annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+
+        
+        return handled
+    }*/
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -67,7 +170,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                  * The store could not be migrated to the current model version.
                  Check the error message to determine what the actual problem was.
                  */
-                fatalError("Unresolved error \(error), \(error.userInfo)")
+                Logger.error("Unresolved error \(error), \(error.userInfo)")
             }
         })
         return container
@@ -84,7 +187,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nserror = error as NSError
-                fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+                Logger.error("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
     }

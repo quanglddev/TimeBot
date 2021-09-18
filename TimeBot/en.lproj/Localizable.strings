@@ -1,0 +1,135 @@
+/*
+  Localizable.strings
+  TimeBot
+
+  Created by QUANG on 4/1/17.
+  Copyright © 2017 QUANG INDUSTRIES. All rights reserved.
+*/
+
+"HELLO_WORLD" = "Hello World";
+
+"MONDAY_WEEKDAY" = "Monday";
+"TUESDAY_WEEKDAY" = "Tuesday";
+"WEDNESDAY_WEEKDAY" = "Wednesday";
+"THURSDAY_WEEKDAY" = "Thursday";
+"FRIDAY_WEEKDAY" = "Friday";
+"SATURDAY_WEEKDAY" = "Saturday";
+"SUNDAY_WEEKDAY" = "Sunday";
+
+"EDIT" = "Edit";
+"CANCEL" = "Cancel";
+"PERSONALIZE_INFO" = "Personalize Info";
+"CHANGE" = "Change";
+
+"DELETE_ALL" = "Delete All";
+"DELETE_ALL_2" = "This will delete all works that have the same name throughout the week";
+"DELETE" = "Delete";
+"DELETE_2" = "This will delete only the selected work";
+
+"MINUTES" = "minutes";
+"HOURS" = "hours";
+
+"Mon" = "Mon";
+"Tue" = "Tue";
+"Wed" = "Wed";
+"Thu" = "Thu";
+"Fri" = "Fri";
+"Sat" = "Sat";
+"Sun" = "Sun";
+
+"NOT_COMPLETED" = "Not Completed!";
+"COMPLETE" = "Please complete all neccessary info.";
+
+"FACEBOOK" = "Share on Facebook";
+"TWITTER" = "Share on Twitter";
+"SHARE" = "SHARE";
+"CHOOSE" = "Choose your media network.";
+
+"EMAIL" = "Enter your email here...";
+
+"SEND" = "Send";
+
+"SAVE" = "Save to Camera Roll";
+"NEXT_TIME" = "Maybe next time";
+"CONFIRM_SEND" = "You'll be sent an image of all your week timetable.";
+
+"RESET" = "Please delete all";
+"NO" = "No";
+"ARE_YOU_SURE" = "Are you sure?";
+"ARE_YOU_SURE_2" = "This will completely delete all you data!!!";
+
+"NO_DATA" = "No data";
+
+"SHARE_TEXT" = "Get your life easier with TimeBot! Approved! \n #TimeBot";
+
+"MAIL_SUBJECT" = "Timetable from ";
+"MAIL_BODY" = "You have done: ";
+
+"MAIL_ATTACH" = "Timetable - ";
+
+"MAIL_FAILED" = "Could Not Send Email";
+"MAIL_FAILED_2" = "Your device could not send e-mail.  Please check e-mail configuration and try again.";
+
+"SAVED" = "Successfully Saved.";
+
+"DONE" = "Done";
+
+"SEND_FAILED" = "Failed to send";
+"MISTYPED" = "Mistyped or invalid email address.";
+
+"CREDENTIAL" = "Please use your real credential or check again.";
+
+"STARTS" = "Starts";
+"ENDS" = "Ends";
+
+"INFO" = "INFO";
+"PROGRESS" = "PROGRESS";
+"PERFORMANCE" = "Performance";
+"SEND_" = "Send This Week Timetable";
+"DATA" = "DATA";
+"CLEAR_ALL" = "Clear All Data";
+"PERMISSION" = "Provide Permissions";
+"LANGUAGE" = "Set Language";
+"ALARM" = "Alarm for all";
+"INFO_FOOTER" = "By default alarm is only available for important task. Turn on only if you want alarm for EVERYTHING. (Might be annoying)";
+
+"TITLE" = "TITLE";
+"SAVES" = "SAVE";
+"DAY" = "DAY";
+"DAY_FOOTER" = "You may choose multiple days";
+"IMPORTANT" = "FIXED TIME";
+"YES" = "YES";
+"IMPORTANT_FOOTER" = "Yes is for meeting, school, etc. which time is not flexible.";
+"DURATION" = "DURATION";
+"DESCRIPTION" = "DESCRIPTION";
+"DEFAULT_START" = "Starts     07:00";
+"DEFAULT_END" = "Ends     08:00";
+
+"HOME" = "HOME";
+
+"WELCOME" = "WELCOME";
+"BODY" = "Let's get personalized!";
+"FULL_NAME" = "Full Name";
+"CENSOR" = "Your infomation won't be sent anywhere. This is just for one of this app function.";
+
+"PROGRESS_HEADER" = "PROGRESS";
+"DATA_HEADER" = "DATA";
+"SETTINGS_HEADER" = "SETTINGS";
+"SETTINGS_FOOTER" = "By default alarm is only available for important task. Turn on only if you want alarm for EVERYTHING. (Might be annoying)";
+
+"TYPE_NAME" = "Enter your name here...";
+"TYPE_MAIL" = "Enter your email here...";
+
+"TABLE_EMPTY" = "You haven't set up anything yet. Tap the '+' sign above to configure.";
+
+"MORNING" = "Morning";
+"AFTERNOON" = "Afternoon";
+"NIGHT" = "Night";
+
+"GOOD_JOB" = "Good Job!";
+"PRIZE" = "You deserve a prize 🏆";
+"THANKS" = "Thanks";
+
+"NOTI_SUBTITLE" = "Ready?";
+"NOTI_BODY_1" = "15' more until: ";
+"NOTI_BODY_2" = " now and finish it at ";

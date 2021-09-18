@@ -1,0 +1,156 @@
+
+/* Class = "UILabel"; text = "Quang Dinh Luong"; ObjectID = "15d-Q0-LlE"; */
+"15d-Q0-LlE.text" = "Quang Dinh Luong";
+
+/* Class = "UITableViewSection"; headerTitle = "EMAIL"; ObjectID = "1Rg-ky-QyS"; */
+"1Rg-ky-QyS.headerTitle" = "EMAIL";
+
+/* Class = "UITableViewSection"; headerTitle = "DESCRIPTION"; ObjectID = "3NI-8G-WYH"; */
+"3NI-8G-WYH.headerTitle" = "DESCRIPTION";
+
+/* Class = "UILabel"; text = "Sunday"; ObjectID = "3jg-cM-L6P"; */
+"3jg-cM-L6P.text" = "Sunday";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "40j-l2-aKS"; */
+"40j-l2-aKS.text" = "Email:";
+
+/* Class = "UISegmentedControl"; 4OK-Cv-VKQ.segmentTitles[0] = "YES"; ObjectID = "4OK-Cv-VKQ"; */
+"4OK-Cv-VKQ.segmentTitles[0]" = "YES";
+
+/* Class = "UISegmentedControl"; 4OK-Cv-VKQ.segmentTitles[1] = "NO"; ObjectID = "4OK-Cv-VKQ"; */
+"4OK-Cv-VKQ.segmentTitles[1]" = "NO";
+
+/* Class = "UILabel"; text = "Tuesday"; ObjectID = "55j-xY-9wB"; */
+"55j-xY-9wB.text" = "Tuesday";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "5Bv-vb-SyQ"; */
+"5Bv-vb-SyQ.placeholder" = "Title";
+
+/* Class = "UILabel"; text = "Full Name:"; ObjectID = "69O-S8-qEo"; */
+"69O-S8-qEo.text" = "Full Name:";
+
+/* Class = "UILabel"; text = "1 hours"; ObjectID = "A91-Fj-8FK"; */
+"A91-Fj-8FK.text" = "1 hours";
+
+/* Class = "UILabel"; text = "Wednesday"; ObjectID = "Ayd-IV-OxX"; */
+"Ayd-IV-OxX.text" = "Wednesday";
+
+/* Class = "UILabel"; text = "Thursday"; ObjectID = "Clc-0V-1Do"; */
+"Clc-0V-1Do.text" = "Thursday";
+
+/* Class = "UILabel"; text = "This is a description about your mission."; ObjectID = "DjB-Je-txx"; */
+"DjB-Je-txx.text" = "This is a description about your mission.";
+
+/* Class = "UITableViewSection"; headerTitle = "DATA"; ObjectID = "E8L-sS-eCf"; */
+"E8L-sS-eCf.headerTitle" = "DATA";
+
+/* Class = "UITableViewSection"; headerTitle = "You may choose multiple days."; ObjectID = "EiP-3E-6jU"; */
+"EiP-3E-6jU.headerTitle" = "You may choose multiple days.";
+
+/* Class = "UIBarButtonItem"; title = "CANCEL"; ObjectID = "Fxq-W8-Bsl"; */
+"Fxq-W8-Bsl.title" = "CANCEL";
+
+/* Class = "UINavigationItem"; title = "INFO"; ObjectID = "GUz-Ai-mwa"; */
+"GUz-Ai-mwa.title" = "INFO";
+
+/* Class = "UIBarButtonItem"; title = "DONE"; ObjectID = "IIr-O4-6eu"; */
+"IIr-O4-6eu.title" = "DONE";
+
+/* Class = "UITableViewSection"; footerTitle = "By default alarm is only available for important task. Turn on only if you want alarm for EVERYTHING. (Might be annoying)"; ObjectID = "IdG-Ra-ohj"; */
+"IdG-Ra-ohj.footerTitle" = "By default alarm is only available for important task. Turn on only if you want alarm for EVERYTHING. (Might be annoying)";
+
+/* Class = "UITableViewSection"; headerTitle = "SETTINGS"; ObjectID = "IdG-Ra-ohj"; */
+"IdG-Ra-ohj.headerTitle" = "SETTINGS";
+
+/* Class = "UIButton"; normalTitle = "Provide Permissions"; ObjectID = "Ie0-zM-ONF"; */
+"Ie0-zM-ONF.normalTitle" = "Provide Permissions";
+
+/* Class = "UILabel"; text = "Alarm for all"; ObjectID = "Owd-Te-15x"; */
+"Owd-Te-15x.text" = "Alarm for all";
+
+/* Class = "UITableViewSection"; footerTitle = "You may choose multiple days."; ObjectID = "QNS-dr-v0d"; */
+"QNS-dr-v0d.footerTitle" = "You may choose multiple days.";
+
+/* Class = "UITableViewSection"; headerTitle = "Day"; ObjectID = "QNS-dr-v0d"; */
+"QNS-dr-v0d.headerTitle" = "Day";
+
+/* Class = "UIButton"; normalTitle = "Starts     00:00"; ObjectID = "Qdg-IM-DLi"; */
+"Qdg-IM-DLi.normalTitle" = "Starts     00:00";
+
+/* Class = "UILabel"; text = "Your infomation won't be sent anywhere. This is just for one of this app function."; ObjectID = "Td2-o8-MGP"; */
+"Td2-o8-MGP.text" = "Your infomation won't be sent anywhere. This is just for one of this app function.";
+
+/* Class = "UIBarButtonItem"; title = "DONE"; ObjectID = "U7t-i3-qLf"; */
+"U7t-i3-qLf.title" = "DONE";
+
+/* Class = "UILabel"; text = "Friday"; ObjectID = "V16-I7-vzy"; */
+"V16-I7-vzy.text" = "Friday";
+
+/* Class = "UITextField"; placeholder = "Enter your mail here..."; ObjectID = "VJw-6h-ceK"; */
+"VJw-6h-ceK.placeholder" = "Enter your mail here...";
+
+/* Class = "UILabel"; text = "Performance"; ObjectID = "WIy-cx-dOU"; */
+"WIy-cx-dOU.text" = "Performance";
+
+/* Class = "UILabel"; text = "You haven't set up anything yet. Tap the '+' sign above to configure."; ObjectID = "WZR-LO-Obt"; */
+"WZR-LO-Obt.text" = "You haven't set up anything yet. Tap the '+' sign above to configure.";
+
+/* Class = "UIButton"; normalTitle = "Send This Week Timetable"; ObjectID = "X9o-JO-lop"; */
+"X9o-JO-lop.normalTitle" = "Send This Week Timetable";
+
+/* Class = "UILabel"; text = "WELCOME"; ObjectID = "XTc-sg-9Ax"; */
+"XTc-sg-9Ax.text" = "WELCOME";
+
+/* Class = "UILabel"; text = "05:30"; ObjectID = "bYY-Sd-pti"; */
+"bYY-Sd-pti.text" = "05:30";
+
+/* Class = "UIBarButtonItem"; title = "SAVE"; ObjectID = "beD-ED-YF1"; */
+"beD-ED-YF1.title" = "SAVE";
+
+/* Class = "UINavigationItem"; title = "HOME"; ObjectID = "cOq-Jt-Oq5"; */
+"cOq-Jt-Oq5.title" = "HOME";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "e8t-RJ-yU4"; */
+"e8t-RJ-yU4.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Wake & Excercise"; ObjectID = "jqP-WJ-Fx7"; */
+"jqP-WJ-Fx7.text" = "Wake & Excercise";
+
+/* Class = "UIButton"; normalTitle = "Ends     00:00"; ObjectID = "ju2-ks-r6k"; */
+"ju2-ks-r6k.normalTitle" = "Ends     00:00";
+
+/* Class = "UITextField"; text = "HOME"; ObjectID = "lT2-rd-EXk"; */
+"lT2-rd-EXk.text" = "HOME";
+
+/* Class = "UITableViewSection"; footerTitle = "Yes is for meeting, school, etc. which time is not flexible."; ObjectID = "m1K-mz-c2s"; */
+"m1K-mz-c2s.footerTitle" = "Yes is for meeting, school, etc. which time is not flexible.";
+
+/* Class = "UITableViewSection"; headerTitle = "IMPORTANT"; ObjectID = "m1K-mz-c2s"; */
+"m1K-mz-c2s.headerTitle" = "IMPORTANT";
+
+/* Class = "UITableViewSection"; headerTitle = "PROGRESS"; ObjectID = "n5p-A2-sqj"; */
+"n5p-A2-sqj.headerTitle" = "PROGRESS";
+
+/* Class = "UIButton"; normalTitle = "Clear All Data"; ObjectID = "pbW-cW-ydI"; */
+"pbW-cW-ydI.normalTitle" = "Clear All Data";
+
+/* Class = "UITableViewSection"; footerTitle = "Ignore if 'YES'."; ObjectID = "qra-zI-GZg"; */
+"qra-zI-GZg.footerTitle" = "Ignore if 'YES'.";
+
+/* Class = "UITableViewSection"; headerTitle = "Duration"; ObjectID = "qra-zI-GZg"; */
+"qra-zI-GZg.headerTitle" = "Duration";
+
+/* Class = "UILabel"; text = "Let's get personalized!"; ObjectID = "r5J-fl-x2m"; */
+"r5J-fl-x2m.text" = "Let's get personalized!";
+
+/* Class = "UITextField"; placeholder = "Enter your name here..."; ObjectID = "t5n-Cw-ed7"; */
+"t5n-Cw-ed7.placeholder" = "Enter your name here...";
+
+/* Class = "UILabel"; text = "Saturday"; ObjectID = "tS8-Dc-sfU"; */
+"tS8-Dc-sfU.text" = "Saturday";
+
+/* Class = "UILabel"; text = "90%"; ObjectID = "wq5-82-Z5V"; */
+"wq5-82-Z5V.text" = "90%";
+
+/* Class = "UILabel"; text = "Monday"; ObjectID = "zoh-3N-SsC"; */
+"zoh-3N-SsC.text" = "Monday";

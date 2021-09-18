@@ -1,0 +1,50 @@
+PODS:
+  - ATHMultiSelectionSegmentedControl (0.2.1)
+  - barceloneta (1.0.1)
+  - BEMCheckBox (1.4.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Device (3.0.1)
+  - Dotzu (1.8)
+  - IQKeyboardManagerSwift (4.0.8)
+  - PickerView (0.3.0)
+  - SCLAlertView (0.7.0)
+  - Siren (1.2.5)
+
+DEPENDENCIES:
+  - ATHMultiSelectionSegmentedControl
+  - barceloneta
+  - BEMCheckBox
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Device
+  - Dotzu
+  - IQKeyboardManagerSwift
+  - PickerView
+  - SCLAlertView
+  - Siren
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: acc480fbe023c6e5fe40f68593f4a70a8c4c7ad5
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ATHMultiSelectionSegmentedControl: 9f574fc68f62639768fe9eeffb1a4ffcfe09eb25
+  barceloneta: 391e815eb0deedcb7f314469b8ee74822d5ffc1e
+  BEMCheckBox: e18e4a148905b290bd03d98b767651c104f4eda3
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Device: c793851589633bc515b65e08a2b5a223bc87c45a
+  Dotzu: e787896f08474f4e4574baa20ec556361dfebf0c
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  PickerView: 1430ac060eba5f56c3d5e27ef0e47e280d083c9b
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  Siren: dc310d3166abd771f279ff8b779ca84cbbb4ad30
+
+PODFILE CHECKSUM: a97e2e1c568d2b121f2a6937ad0416a0e8572060
+
+COCOAPODS: 1.1.1
